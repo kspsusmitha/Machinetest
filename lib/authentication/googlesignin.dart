@@ -89,7 +89,7 @@ class _SignInState extends State<SignIn> {
           child: Column(
             mainAxisAlignment: MainAxisAlignment.center,
             children: <Widget>[
-              Image.asset('assets/index.png', height: 100, width: 100),
+            
               SizedBox(height: 50),
               ElevatedButton(
                 style: ElevatedButton.styleFrom(
@@ -110,10 +110,7 @@ class _SignInState extends State<SignIn> {
                       ),
               ),
               SizedBox(height: 20),
-              Text(
-                'Developed by abhay1205',
-                style: TextStyle(fontSize: 10, color: Colors.blue),
-              ),
+            
             ],
           ),
         ),

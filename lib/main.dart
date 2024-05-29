@@ -17,6 +17,7 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       home: Authentication(),
+      debugShowCheckedModeBanner: false,
       routes: <String, WidgetBuilder>{
         '/otpScreen': (BuildContext ctx) => OtpScreen(),
         '/homeScreen': (BuildContext ctx) => MyHomePage(),
